@@ -1,0 +1,1 @@
+Componentes que se pueden repetir en distintas partes del proyecto

@@ -1,0 +1,1 @@
+Almacenar archivos imagen y fuentes para el proyecto
