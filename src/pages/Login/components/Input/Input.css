@@ -1,0 +1,9 @@
+.regularStyle {
+  border: 3px solid springgreen;
+}
+
+.inputError {
+  border: 1px solid red;
+  color: red;
+  background-color: rosybrown;
+}
