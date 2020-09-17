@@ -1,7 +1,24 @@
 .loginContainer {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: royalblue;
+  background-color: #95adbe;
+}
+
+.loginLabel {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.loginButton {
+  width: 40%;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: navy;
 }

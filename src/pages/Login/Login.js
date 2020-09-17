@@ -33,8 +33,8 @@ const Login = () => {
 
   return (
     <div className='loginContainer'>
-      <Title text='Soy un titulo' />
-      <Label text='Usuario' />
+      <Title text='¡Bienvenid@!' />
+      <Label text='Usuario' styles='loginLabel' />
       <Input
        attribute= {{
         id: 'usuario',
@@ -44,7 +44,7 @@ const Login = () => {
        }}
        handleChange={handleChange}
       />
-      <Label text='Contraseña' />
+      <Label text='Contraseña' styles='loginLabel' />
       <Input
        attribute= {{
         id: 'contraseña',
@@ -55,7 +55,7 @@ const Login = () => {
        handleChange={handleChange}
        param={passwordError}
       />
-      <button onClick={handleSubmit}>
+      <button className='loginButton' onClick={handleSubmit}>
         Ingresar
       </button>
     </div>

@@ -1,9 +1,23 @@
+.inputContainer {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.inputStyle {
+  width: 100%;
+  height: 40px;
+  padding: 20px 15px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
 .regularStyle {
-  border: 3px solid springgreen;
+  border: 4px solid silver;
 }
 
 .inputError {
-  border: 1px solid red;
+  border: 4px solid red;
   color: red;
-  background-color: rosybrown;
+  background-color: rgb(253, 169, 169);
 }

@@ -1,10 +1,12 @@
 import React from 'react';
+import Label from './../Label/Label'
 import './Title.css';
 
 const Title = ({ text }) => {
+  
   return (
     <div className='titleContainer'>
-      <label className='titleLabel'> {text} </label>
+      <Label text={text} styles='titleLabel' />
     </div>
   );
 };
